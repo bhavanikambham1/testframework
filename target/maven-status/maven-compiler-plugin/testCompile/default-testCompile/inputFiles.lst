@@ -1,0 +1,11 @@
+/Users/mozm/Gilded/src/test/java/testBase/PageInitializer.java
+/Users/mozm/Gilded/src/test/java/pages/DashboardPageElements.java
+/Users/mozm/Gilded/src/test/java/stepDefinitions/Hooks.java
+/Users/mozm/Gilded/src/test/java/utils/CommonMethods.java
+/Users/mozm/Gilded/src/test/java/pages/LoginPageElements.java
+/Users/mozm/Gilded/src/test/java/stepDefinitions/LoginFunctionsStepDefinitions.java
+/Users/mozm/Gilded/src/test/java/utils/Constants.java
+/Users/mozm/Gilded/src/test/java/runners/RegressionRunner.java
+/Users/mozm/Gilded/src/test/java/runners/FailedRunner.java
+/Users/mozm/Gilded/src/test/java/utils/ConfigsReader.java
+/Users/mozm/Gilded/src/test/java/testBase/BaseClass.java

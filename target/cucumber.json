@@ -1,0 +1,444 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-06T19:53:50.179Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13284000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Unsuccessful login with invalid entries",
+        "description": "",
+        "id": "login-functionality;unsuccessful-login-with-invalid-entries",
+        "after": [
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter username as \"username@abc.com\" and password as \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username@abc.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1854000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that error message displayed",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.verify_that_error_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T19:54:05.890Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3084000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Unsuccessful login with empty entries",
+        "description": "",
+        "id": "login-functionality;unsuccessful-login-with-empty-entries",
+        "after": [
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter username as \"\" and password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should not able to click Log in button",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_should_not_able_to_click_log_in_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T19:54:09.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6790000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Unsuccessful login with valid username and invalid password",
+        "description": "",
+        "id": "login-functionality;unsuccessful-login-with-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 437000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter username as \"sajid.chudesara@gildedco.com\" and password as \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sajid.chudesara@gildedco.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1935000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify that error message displayed",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.verify_that_error_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T19:54:18.746Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5910000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Unsuccessful login with empty username and invalid password",
+        "description": "",
+        "id": "login-functionality;unsuccessful-login-with-empty-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter username as \"\" and password as \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should not able to click Log in button",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_should_not_able_to_click_log_in_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T19:54:25.003Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2879000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-functionality;successful-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 280000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter user name as \"sajid.chudesara@gildedco.com\" and password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sajid.chudesara@gildedco.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 68
+                }
+              ],
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_enter_user_name_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 547000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5830000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify that navigated dashboard page successfully",
+            "match": {
+              "location": "stepDefinitions.LoginFunctionsStepDefinitions.i_verify_that_navigated_dashboard_page_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginFunction.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  }
+]
